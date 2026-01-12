@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!--En-tete-->
+    <head>
+        <meta charset="utf-8" />        <!--Encodage-->
+        <title>Carousel</title>       <!--Titre de la page-->
+        <!--Lien-->
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.1.0/css/all.css">
+        <!--Script-->
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+    </head>
+
+    <body>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pixabay1.jpg" class="d-block w-100" alt="image_pixabay1">
+                </div>
+                <div class="carousel-item">
+                    <img src="pixabay2.jpg" class="d-block w-100" alt="image_pixabay2">
+                </div>
+                <div class="carousel-item">
+                    <img src="pixabay3.jpg" class="d-block w-100" alt="image_pixabay3">
+                </div>
+                <div class="carousel-item">
+                    <img src="pixabay4.jpg" class="d-block w-100" alt="image_pixabay4">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </body>
